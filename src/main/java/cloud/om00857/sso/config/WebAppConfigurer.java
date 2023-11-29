@@ -9,7 +9,6 @@ import cloud.om00857.sso.properties.SsoClientProperties;
 import cn.dev33.satoken.interceptor.SaInterceptor;
 import cn.dev33.satoken.stp.StpUtil;
 import jakarta.annotation.Resource;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -31,7 +30,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * <p>Update Comments: </p>
  */
 @ConditionalOnWebApplication
-@ConditionalOnMissingBean(WebMvcConfigurer.class)
 @Configuration
 public class WebAppConfigurer implements WebMvcConfigurer {
 
