@@ -1,11 +1,11 @@
-package cloud.om00857.sso.config;
+package io.github.sso.config;
 /**
  * @author WebAppConfigurer
  * @date 2023/11/28
  */
 
-import cloud.om00857.sso.mvc.LogMdcFilter;
-import cloud.om00857.sso.properties.SsoClientProperties;
+import io.github.sso.mvc.LogMdcFilter;
+import io.github.sso.properties.SsoClientProperties;
 import cn.dev33.satoken.interceptor.SaInterceptor;
 import cn.dev33.satoken.stp.StpUtil;
 import jakarta.annotation.Resource;

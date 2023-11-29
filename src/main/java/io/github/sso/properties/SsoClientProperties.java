@@ -1,4 +1,4 @@
-package cloud.om00857.sso.properties;/**
+package io.github.sso.properties;/**
  * @author SsoClientProperties
  * @date 2023/11/28
  */

@@ -1,4 +1,4 @@
-package cloud.om00857.sso.mapper;
+package io.github.sso.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;

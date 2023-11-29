@@ -1,6 +1,6 @@
-package cloud.om00857.sso.service;
+package io.github.sso.service;
 
-import cloud.om00857.sso.mapper.AbstractBaseMapper;
+import io.github.sso.mapper.AbstractBaseMapper;
 import cn.hutool.core.collection.CollectionUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.transaction.annotation.Transactional;

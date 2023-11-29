@@ -1,6 +1,6 @@
-package cloud.om00857.sso.mvc;
+package io.github.sso.mvc;
 
-import cloud.om00857.sso.exception.BizException;
+import io.github.sso.exception.BizException;
 import cn.dev33.satoken.exception.NotLoginException;
 import cn.dev33.satoken.util.SaResult;
 import lombok.extern.slf4j.Slf4j;

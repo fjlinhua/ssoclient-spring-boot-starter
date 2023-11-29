@@ -1,4 +1,4 @@
-package cloud.om00857.sso.dto;
+package io.github.sso.dto;
 
 import cn.hutool.core.util.NumberUtil;
 import lombok.Getter;

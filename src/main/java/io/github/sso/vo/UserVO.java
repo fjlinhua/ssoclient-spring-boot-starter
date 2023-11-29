@@ -1,4 +1,4 @@
-package cloud.om00857.sso.vo;
+package io.github.sso.vo;
 /**
  * @author UserVO
  * @date 2023/11/28

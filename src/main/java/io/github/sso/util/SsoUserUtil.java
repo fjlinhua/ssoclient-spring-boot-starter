@@ -1,10 +1,10 @@
-package cloud.om00857.sso.util;
+package io.github.sso.util;
 /**
  * @author SsoUserUtil
  * @date 2023/11/08
  */
 
-import cloud.om00857.sso.vo.UserVO;
+import io.github.sso.vo.UserVO;
 import cn.dev33.satoken.sso.SaSsoUtil;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.json.JSONUtil;

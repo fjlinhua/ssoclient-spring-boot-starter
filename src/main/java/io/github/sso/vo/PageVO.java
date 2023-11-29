@@ -1,4 +1,4 @@
-package cloud.om00857.sso.vo;
+package io.github.sso.vo;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,13 +1,13 @@
-package cloud.om00857.sso.controller;
+package io.github.sso.controller;
 /**
  * @author SsoClientController
  * @date 2023/11/28
  */
 
-import cloud.om00857.sso.exception.BizException;
-import cloud.om00857.sso.properties.SsoClientProperties;
-import cloud.om00857.sso.util.SsoUserUtil;
-import cloud.om00857.sso.vo.UserVO;
+import io.github.sso.exception.BizException;
+import io.github.sso.properties.SsoClientProperties;
+import io.github.sso.util.SsoUserUtil;
+import io.github.sso.vo.UserVO;
 import cn.dev33.satoken.config.SaSsoConfig;
 import cn.dev33.satoken.sso.SaSsoProcessor;
 import cn.dev33.satoken.sso.SaSsoUtil;

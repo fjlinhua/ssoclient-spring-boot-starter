@@ -1,4 +1,4 @@
-package cloud.om00857.sso.mvc;
+package io.github.sso.mvc;
 
 import cn.dev33.satoken.util.SaResult;
 import org.springframework.core.MethodParameter;

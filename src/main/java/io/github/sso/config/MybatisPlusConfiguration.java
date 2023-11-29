@@ -1,4 +1,4 @@
-package cloud.om00857.sso.config;
+package io.github.sso.config;
 /**
  * @author MybatisPlusConfiguration
  * @date 2023/11/28

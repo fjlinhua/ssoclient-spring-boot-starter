@@ -1,4 +1,4 @@
-package cloud.om00857.sso.util;
+package io.github.sso.util;
 
 import cn.hutool.core.util.CharUtil;
 import cn.hutool.core.util.StrUtil;

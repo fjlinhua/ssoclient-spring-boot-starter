@@ -1,9 +1,9 @@
-package cloud.om00857.sso.config;/**
+package io.github.sso.config;/**
  * @author ClientAutoConfiguration
  * @date 2023/11/28
  */
 
-import cloud.om00857.sso.properties.SsoClientProperties;
+import io.github.sso.properties.SsoClientProperties;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

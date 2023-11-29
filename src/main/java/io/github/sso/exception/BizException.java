@@ -1,4 +1,4 @@
-package cloud.om00857.sso.exception;
+package io.github.sso.exception;
 /**
  * @author BizException
  * @date 2023/11/06

@@ -3,7 +3,7 @@
 ## step1: add dependency
 ```xml
 <dependency>
-	<groupId>cloud.00857.sso</groupId>
+	<groupId>io.github.fjtraindriver</groupId>
 	<artifactId>ssoclient-spring-boot-starter</artifactId>
 	<version>1.0.0</version>
 </dependency>
@@ -15,7 +15,7 @@
 
 ## step3: scan component
 ```
-@SpringBootApplication(scanBasePackages = {"cloud.www.**", "cloud.om00857.**"})
+@SpringBootApplication(scanBasePackages = {"cloud.www.**", "io.github.sso.**"})
 ```
 
 ## step4: create a get user info request

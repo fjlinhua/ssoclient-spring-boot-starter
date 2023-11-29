@@ -8,7 +8,7 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>cloud.00857.sso</groupId>
+	<groupId>io.github.fjtraindriver</groupId>
 	<artifactId>ssoclient-spring-boot-starter</artifactId>
 	<version>1.0.0</version>
 	<name>ssoclient-spring-boot-starter</name>
