@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.fjtraindriver</groupId>
     <artifactId>ssoclient-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>ssoclient-spring-boot-starter</name>
     <description>SSO Client Starter</description>
     <url>https://github.com/fjtraindriver/ssoclient-spring-boot-starter</url>
@@ -147,6 +147,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>io.github.sso.Application</mainClass>
+                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
@@ -172,6 +173,7 @@
                     <serverId>ossrh</serverId>
                     <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                    <stagingProgressTimeoutMinutes>30</stagingProgressTimeoutMinutes>
                 </configuration>
             </plugin>
             <!-- 生成java source.jar -->

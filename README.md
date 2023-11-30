@@ -5,7 +5,7 @@
 <dependency>
 	<groupId>io.github.fjtraindriver</groupId>
 	<artifactId>ssoclient-spring-boot-starter</artifactId>
-	<version>1.0.0</version>
+	<version>${version}</version>
 </dependency>
 ```
 ## step2: scan mybatis-plus mapper
